@@ -42,7 +42,7 @@ public class MathApp {
         //Question 7:
         double randomNumber;
         randomNumber = Math.random();
-        System.out.println("Random number between 0 and 1 is " + randomNumber);
+        System.out.println("Random number between 0 and 1 is : " + randomNumber);
         //Question 8:
 
 
