@@ -26,17 +26,19 @@ public class MathApp {
         sqr = Math.sqrt(numberToGetSqrFor);
         System.out.println("The square root of " + numberToGetSqrFor + " is " + sqr);
         //Question 5:
-        double result;
+        double resultForcircle;
         int x1 ,x2 , y1, y2;
         x1 = 5;
         x2 = 85;
         y1 = 10;
         y2 = 50;
-        result = Math.sqrt((x2 - x1) * (x2 - x1) + (y2 -y1) * (y2 -y1));
-        System.out.println("The distance between (" + x1 +","+ y1 + ") and (" + x2 +","+y2+") is "+ result);
+        resultForcircle = Math.sqrt((x2 - x1) * (x2 - x1) + (y2 -y1) * (y2 -y1));
+        System.out.println("The distance between (" + x1 +","+ y1 + ") and (" + x2 +","+y2+") is "+ resultForcircle);
         //Question 6:
-        double numberToAbsluteV;
-        numberToAbsluteV = -3.8;
+        double numberToAbsoluteVFor, resultForAV ;
+        numberToAbsoluteVFor = -3.8;
+        resultForAV = Math.abs(numberToAbsoluteVFor);
+        System.out.println("The absolute value of " + numberToAbsoluteVFor +"is " + resultForAV);
 
 
 
