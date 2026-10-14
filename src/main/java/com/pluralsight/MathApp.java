@@ -44,6 +44,14 @@ public class MathApp {
         randomNumber = Math.random();
         System.out.println("Random number between 0 and 1 is : " + randomNumber);
         //Question 8:
+        int hour, dayminutes, numOfDayes, resultForMinutes, numOfDayesresult;
+        hour = 60;
+        dayminutes = hour * 24;
+        numOfDayes = 24;
+        numOfDayesresult = numOfDayes * dayminutes;
+        System.out.println("The number of minutes in " + numOfDayes + " is " + numOfDayesresult);
+
+
 
 
 
