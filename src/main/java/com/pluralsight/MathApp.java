@@ -39,7 +39,11 @@ public class MathApp {
         numberToAbsoluteVFor = -3.8;
         resultForAV = Math.abs(numberToAbsoluteVFor);
         System.out.println("The absolute value of " + numberToAbsoluteVFor +"is " + resultForAV);
-
+        //Question 7:
+        double randomNumber;
+        randomNumber = Math.random();
+        System.out.println("Random number between 0 and 1 is " + randomNumber);
+        //Question 8:
 
 
 
